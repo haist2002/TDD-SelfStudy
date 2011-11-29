@@ -8,16 +8,15 @@ public class AttendeeTest {
 
 	@Test
 	public void testAdd() {
-		Attendee attende = new Attendee();
+		Attendee attendee = new Attendee();
 		attendee.add("¾Èº´ÈÖ");
-		assertEquals("¾Èº´ÈÖ", attende.get(1));
+		assertEquals("¾Èº´ÈÖ", attendee.get(1));
 	}
 	
 	@Test
 	public void testGet(){
-		Attendee attende = new Attendee();
+		Attendee attendee = new Attendee();
 		attendee.add("¾Èº´ÈÖ");
-		assertEquals("¾Èº´ÈÖ", attende.get(1));
-		Faild
+		assertEquals("¾Èº´ÈÖ", attendee.get(1));
 	}
 }
